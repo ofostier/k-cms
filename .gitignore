@@ -1,0 +1,4 @@
+/.keystone
+/keystone.db.old
+/node_modules
+/yarn-error.log
