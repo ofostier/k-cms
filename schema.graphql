@@ -153,54 +153,18 @@ input UserWhereInput {
   name_not: String
   name_contains: String
   name_not_contains: String
-  name_starts_with: String
-  name_not_starts_with: String
-  name_ends_with: String
-  name_not_ends_with: String
-  name_i: String
-  name_not_i: String
-  name_contains_i: String
-  name_not_contains_i: String
-  name_starts_with_i: String
-  name_not_starts_with_i: String
-  name_ends_with_i: String
-  name_not_ends_with_i: String
   name_in: [String]
   name_not_in: [String]
   firstname: String
   firstname_not: String
   firstname_contains: String
   firstname_not_contains: String
-  firstname_starts_with: String
-  firstname_not_starts_with: String
-  firstname_ends_with: String
-  firstname_not_ends_with: String
-  firstname_i: String
-  firstname_not_i: String
-  firstname_contains_i: String
-  firstname_not_contains_i: String
-  firstname_starts_with_i: String
-  firstname_not_starts_with_i: String
-  firstname_ends_with_i: String
-  firstname_not_ends_with_i: String
   firstname_in: [String]
   firstname_not_in: [String]
   email: String
   email_not: String
   email_contains: String
   email_not_contains: String
-  email_starts_with: String
-  email_not_starts_with: String
-  email_ends_with: String
-  email_not_ends_with: String
-  email_i: String
-  email_not_i: String
-  email_contains_i: String
-  email_not_contains_i: String
-  email_starts_with_i: String
-  email_not_starts_with_i: String
-  email_ends_with_i: String
-  email_not_ends_with_i: String
   email_in: [String]
   email_not_in: [String]
   password_is_set: Boolean
@@ -208,18 +172,6 @@ input UserWhereInput {
   phone_not: String
   phone_contains: String
   phone_not_contains: String
-  phone_starts_with: String
-  phone_not_starts_with: String
-  phone_ends_with: String
-  phone_not_ends_with: String
-  phone_i: String
-  phone_not_i: String
-  phone_contains_i: String
-  phone_not_contains_i: String
-  phone_starts_with_i: String
-  phone_not_starts_with_i: String
-  phone_ends_with_i: String
-  phone_not_ends_with_i: String
   phone_in: [String]
   phone_not_in: [String]
 
@@ -431,36 +383,12 @@ input ProductWhereInput {
   name_not: String
   name_contains: String
   name_not_contains: String
-  name_starts_with: String
-  name_not_starts_with: String
-  name_ends_with: String
-  name_not_ends_with: String
-  name_i: String
-  name_not_i: String
-  name_contains_i: String
-  name_not_contains_i: String
-  name_starts_with_i: String
-  name_not_starts_with_i: String
-  name_ends_with_i: String
-  name_not_ends_with_i: String
   name_in: [String]
   name_not_in: [String]
   description: String
   description_not: String
   description_contains: String
   description_not_contains: String
-  description_starts_with: String
-  description_not_starts_with: String
-  description_ends_with: String
-  description_not_ends_with: String
-  description_i: String
-  description_not_i: String
-  description_contains_i: String
-  description_not_contains_i: String
-  description_starts_with_i: String
-  description_not_starts_with_i: String
-  description_ends_with_i: String
-  description_not_ends_with_i: String
   description_in: [String]
   description_not_in: [String]
   photo: ProductImageWhereInput
@@ -619,18 +547,6 @@ input ProductImageWhereInput {
   altText_not: String
   altText_contains: String
   altText_not_contains: String
-  altText_starts_with: String
-  altText_not_starts_with: String
-  altText_ends_with: String
-  altText_not_ends_with: String
-  altText_i: String
-  altText_not_i: String
-  altText_contains_i: String
-  altText_not_contains_i: String
-  altText_starts_with_i: String
-  altText_not_starts_with_i: String
-  altText_ends_with_i: String
-  altText_not_ends_with_i: String
   altText_in: [String]
   altText_not_in: [String]
   product: ProductWhereInput
@@ -781,36 +697,12 @@ input OrderItemWhereInput {
   name_not: String
   name_contains: String
   name_not_contains: String
-  name_starts_with: String
-  name_not_starts_with: String
-  name_ends_with: String
-  name_not_ends_with: String
-  name_i: String
-  name_not_i: String
-  name_contains_i: String
-  name_not_contains_i: String
-  name_starts_with_i: String
-  name_not_starts_with_i: String
-  name_ends_with_i: String
-  name_not_ends_with_i: String
   name_in: [String]
   name_not_in: [String]
   description: String
   description_not: String
   description_contains: String
   description_not_contains: String
-  description_starts_with: String
-  description_not_starts_with: String
-  description_ends_with: String
-  description_not_ends_with: String
-  description_i: String
-  description_not_i: String
-  description_contains_i: String
-  description_not_contains_i: String
-  description_starts_with_i: String
-  description_not_starts_with_i: String
-  description_ends_with_i: String
-  description_not_ends_with_i: String
   description_in: [String]
   description_not_in: [String]
   photo: ProductImageWhereInput
@@ -967,18 +859,6 @@ input OrderWhereInput {
   charge_not: String
   charge_contains: String
   charge_not_contains: String
-  charge_starts_with: String
-  charge_not_starts_with: String
-  charge_ends_with: String
-  charge_not_ends_with: String
-  charge_i: String
-  charge_not_i: String
-  charge_contains_i: String
-  charge_not_contains_i: String
-  charge_starts_with_i: String
-  charge_not_starts_with_i: String
-  charge_ends_with_i: String
-  charge_not_ends_with_i: String
   charge_in: [String]
   charge_not_in: [String]
 }
@@ -1083,18 +963,6 @@ input RoleWhereInput {
   name_not: String
   name_contains: String
   name_not_contains: String
-  name_starts_with: String
-  name_not_starts_with: String
-  name_ends_with: String
-  name_not_ends_with: String
-  name_i: String
-  name_not_i: String
-  name_contains_i: String
-  name_not_contains_i: String
-  name_starts_with_i: String
-  name_not_starts_with_i: String
-  name_ends_with_i: String
-  name_not_ends_with_i: String
   name_in: [String]
   name_not_in: [String]
   canManageProducts: Boolean
@@ -1249,54 +1117,18 @@ input RotiWhereInput {
   subject_not: String
   subject_contains: String
   subject_not_contains: String
-  subject_starts_with: String
-  subject_not_starts_with: String
-  subject_ends_with: String
-  subject_not_ends_with: String
-  subject_i: String
-  subject_not_i: String
-  subject_contains_i: String
-  subject_not_contains_i: String
-  subject_starts_with_i: String
-  subject_not_starts_with_i: String
-  subject_ends_with_i: String
-  subject_not_ends_with_i: String
   subject_in: [String]
   subject_not_in: [String]
   description: String
   description_not: String
   description_contains: String
   description_not_contains: String
-  description_starts_with: String
-  description_not_starts_with: String
-  description_ends_with: String
-  description_not_ends_with: String
-  description_i: String
-  description_not_i: String
-  description_contains_i: String
-  description_not_contains_i: String
-  description_starts_with_i: String
-  description_not_starts_with_i: String
-  description_ends_with_i: String
-  description_not_ends_with_i: String
   description_in: [String]
   description_not_in: [String]
   shorturl: String
   shorturl_not: String
   shorturl_contains: String
   shorturl_not_contains: String
-  shorturl_starts_with: String
-  shorturl_not_starts_with: String
-  shorturl_ends_with: String
-  shorturl_not_ends_with: String
-  shorturl_i: String
-  shorturl_not_i: String
-  shorturl_contains_i: String
-  shorturl_not_contains_i: String
-  shorturl_starts_with_i: String
-  shorturl_not_starts_with_i: String
-  shorturl_ends_with_i: String
-  shorturl_not_ends_with_i: String
   shorturl_in: [String]
   shorturl_not_in: [String]
   datecreated: String
@@ -1332,18 +1164,6 @@ input RotiWhereInput {
   tags_not: String
   tags_contains: String
   tags_not_contains: String
-  tags_starts_with: String
-  tags_not_starts_with: String
-  tags_ends_with: String
-  tags_not_ends_with: String
-  tags_i: String
-  tags_not_i: String
-  tags_contains_i: String
-  tags_not_contains_i: String
-  tags_starts_with_i: String
-  tags_not_starts_with_i: String
-  tags_ends_with_i: String
-  tags_not_ends_with_i: String
   tags_in: [String]
   tags_not_in: [String]
 }
@@ -1459,36 +1279,12 @@ input VoteWhereInput {
   name_not: String
   name_contains: String
   name_not_contains: String
-  name_starts_with: String
-  name_not_starts_with: String
-  name_ends_with: String
-  name_not_ends_with: String
-  name_i: String
-  name_not_i: String
-  name_contains_i: String
-  name_not_contains_i: String
-  name_starts_with_i: String
-  name_not_starts_with_i: String
-  name_ends_with_i: String
-  name_not_ends_with_i: String
   name_in: [String]
   name_not_in: [String]
   email: String
   email_not: String
   email_contains: String
   email_not_contains: String
-  email_starts_with: String
-  email_not_starts_with: String
-  email_ends_with: String
-  email_not_ends_with: String
-  email_i: String
-  email_not_i: String
-  email_contains_i: String
-  email_not_contains_i: String
-  email_starts_with_i: String
-  email_not_starts_with_i: String
-  email_ends_with_i: String
-  email_not_ends_with_i: String
   email_in: [String]
   email_not_in: [String]
   note: String
@@ -1503,18 +1299,6 @@ input VoteWhereInput {
   comment_not: String
   comment_contains: String
   comment_not_contains: String
-  comment_starts_with: String
-  comment_not_starts_with: String
-  comment_ends_with: String
-  comment_not_ends_with: String
-  comment_i: String
-  comment_not_i: String
-  comment_contains_i: String
-  comment_not_contains_i: String
-  comment_starts_with_i: String
-  comment_not_starts_with_i: String
-  comment_ends_with_i: String
-  comment_not_ends_with_i: String
   comment_in: [String]
   comment_not_in: [String]
 
