@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "keystone-next dev",
     "start": "keystone-next start",
-    "postinstall": "keystone-next postinstall",
+    "postinstall": "keystone-next postinstall --fix",
     "build": "keystone-next build",
     "seed-data": "keystone-next --seed-data"
   },
