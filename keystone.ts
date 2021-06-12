@@ -56,8 +56,11 @@ export default withAuth(
       },
     },
     db: process.env.DATABASE_URL
-      ? { provider: 'postgresql', 
-          url: process.env.DATABASE_URL,
+      ? {
+          provider: 'sqlite',
+          url: 'file:./app.db',
+          //provider: 'postgresql',
+          //url: process.env.DATABASE_URL,
           //console.log('BOUM !!Connecting to the database!');
           async onConnect(context) {
             console.log('Connected to the database!');
