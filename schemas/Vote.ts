@@ -41,7 +41,7 @@ export const Vote = list(
         { value: '4', label: '4' },
         { value: '5', label: '5' },
       ],
-      defaultValue: 0,
+      defaultValue: 1,
       //dataType: 'integer',
     }),
     comment: text({
